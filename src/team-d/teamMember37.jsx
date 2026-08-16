@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TeamMember7 = () => {
-  const name = ""; // Leave blank for now
+  const name = "kritagya manandhar"; // Leave blank for now
   
   // Return null if name is blank
   if (!name.trim()) {
