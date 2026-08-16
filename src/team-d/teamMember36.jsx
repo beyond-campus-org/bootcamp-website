@@ -1,13 +1,13 @@
 import React from 'react';
 
 const TeamMember6 = () => {
-  const name = ""; // Leave blank for now
-  
+  const name = "Sudip Thapa"; // Leave blank for now
+
   // Return null if name is blank
   if (!name.trim()) {
     return null;
   }
-  
+
   return (
     <div style={{
       backgroundColor: 'white',
@@ -16,8 +16,8 @@ const TeamMember6 = () => {
       padding: '1.5rem',
       transition: 'box-shadow 0.3s ease'
     }}
-    onMouseEnter={(e) => e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1)'}
-    onMouseLeave={(e) => e.currentTarget.style.boxShadow = '0 1px 3px 0 rgba(0, 0, 0, 0.1)'}>
+      onMouseEnter={(e) => e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1)'}
+      onMouseLeave={(e) => e.currentTarget.style.boxShadow = '0 1px 3px 0 rgba(0, 0, 0, 0.1)'}>
       <div style={{
         display: 'flex',
         flexDirection: 'column',
